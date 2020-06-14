@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "amor-azul",
+      "public": "dist/amor-azul",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

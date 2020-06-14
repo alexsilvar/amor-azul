@@ -1,0 +1,27 @@
+<ng-container class="col-md-12">
+    <legend>Perfil</legend>
+    <p class="center-content">Insira seus dados para análise. Seu cadastro é secreto e somente será usado como número
+        para termos
+        força e voz para solicitar atuação política em nossa causa Amor Azul.</p>
+    <br>
+    <form action="submit" class="col-md-11" [formGroup]="formGroup">
+        <div class="row">
+            <div class="col-md-6">
+                <mat-form-field>
+                    <mat-label>Nome do Responsável</mat-label>
+                    <input matInput formControlName="responsavel">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6">
+                <mat-form-field>
+                    <mat-label>CPF</mat-label>
+                    <input matInput formControlName="cpf" type="number">
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            TODO: Tabela para cadastrar nomes e anexar documentos
+            Limitar quantidade e tamanho dos arquivos.
+        </div>
+    </form>
+</ng-container>

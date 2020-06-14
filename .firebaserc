@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "amor-azul": {
+      "hosting": {
+        "amor-azul": [
+          "amor-azul"
+        ]
+      }
+    }
+  }
+}
